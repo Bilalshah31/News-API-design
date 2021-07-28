@@ -1,0 +1,75 @@
+body{
+    background-image: url(news.webp);
+    margin: 20px;
+    padding: 30px;
+    background-size: cover;
+    
+    
+}
+
+.heading{
+    text-align: center;
+    color: rgb(187, 201, 59);
+    background-color:rgb(36, 40, 51);
+
+
+}
+
+.logo{
+    
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    
+
+}
+
+.d-flex{
+    background-image:url(bck.jpg) ;
+     /* background-color:rgb(63, 63, 148) ; */
+     padding: 20px;
+     margin: 0 auto;
+     width: 60%;
+}
+
+#news{
+    background-color: aqua;
+    display: inline;    
+    flex-wrap: wrap;
+    display: flex;
+
+}
+
+
+#button{
+    background-color: black;
+    
+    font-size: 20px;
+}
+
+
+#search{
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    
+
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container-fluid{
+    background-color: rgb(66, 168, 172);
+    
+    padding: 10px;
+}
+
+
+@media screen and (max-width: 400px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
